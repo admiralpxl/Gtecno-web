@@ -20,6 +20,7 @@
 }
 html {
     font-size: 62.5%;
+    color: var(--just-white);
 }
 .header{
     width: 100%;
@@ -43,7 +44,6 @@ html {
 .main .main-title h1{
     font-size: 4.2rem;
     font-weight: 700;
-    color: var(--just-white);
     text-align: center;
     margin: 30px auto;
 }
@@ -52,12 +52,52 @@ html {
     min-width: 300px;
     height: auto;
     background-color: var(--blu-terciary);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(326deg, #1E3482 34.9%, #1a2941 73.44%) ;
 }
 .main .main-services h2{
     font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
     height: 50px;
-    margin: 10px auto;
-    
+    margin-bottom: 20px;
+}
+.main .main-services h3{
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: center;
+}
+.main-services .container-info{
+    width: 80%;
+    min-width: 280px;
+    max-width: 380px;
+    min-height: 230px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: var(--blu-secundary);
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.main-services .main-services--info-service p{
+    font-size: 2.2rem;
+    font-weight: 450;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 18px;
+
+}
+.main .main-services--info-service ul{
+    width: 80%;
+    min-width: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main .main-services--info-service li{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    margin: 20px auto;
 }
