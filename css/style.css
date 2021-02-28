@@ -55,18 +55,21 @@ html {
     text-align: center;
     margin: 30px auto;
 }
-.main .main-services{
+.main .articule-main{
     width: 100%;
     min-width: 300px;
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    
+}
+.main .main-services--back{
     background-image: url("/img/servicio-medium.jpg");
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
 }
-.main .main-services h2{
+.main .articule-main h2{
     font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
@@ -74,18 +77,18 @@ html {
     margin-bottom: 20px;
     color: black;
 }
-.main .main-services h3{
+.main .articule-main h3{
     font-size: 2.2rem;
     font-weight: 400;
     line-height: 2rem;
     text-align: center;
     color: black;
 }
-.main-services .container-info{
+main .container-info{
     width: 80%;
     min-width: 280px;
     max-width: 380px;
-    min-height: 230px;
+    min-height: 240px;
     margin: 0 auto;
     margin-top: 50px;
     background-color: #06195f65;
@@ -108,6 +111,7 @@ html {
     margin-bottom: 10px;
     justify-content: center;
     justify-items: center;
+    list-style:none;
 }
 .main .main-services--info-service li{
     font-size: 1.6rem;
@@ -115,8 +119,41 @@ html {
     line-height: 1.8rem;
     margin: 20px auto;
 }
+/*Seccion 2*/
+.main .main-trust--back{
+    background-image: url("/img/valor-medium.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .main .main-services .confiables-container{
     display: flex;
     justify-content: center;
     justify-items: center;
 }
+.main-trust .confiables-container p{
+    font-size: 2.2rem;
+    font-weight: 450;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 18px;
+
+}
+.main-trust .confiables-container ul{
+    width: 80%;
+    min-width: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 3px;
+    justify-content: center;
+    justify-items: center;
+    list-style:none;
+}
+.main .confiables-container li{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    margin: 20px auto
+}
+
